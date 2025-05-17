@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/Fondo panes.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Georgia', serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(255, 248, 220, 0.95); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+    width: 300px;
+    text-align: center;
+}
+
+.container h2 {
+    color:#c97b4c; 
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #d1bfa7;
+    font-size: 16px;
+    background-color: #fffaf0;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #c97b4c; 
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #a85e36;
+}
